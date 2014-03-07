@@ -36,6 +36,7 @@
 /Users/ThoughtWorker/jello/platforms/android/assets/www/img/robit.png \
 /Users/ThoughtWorker/jello/platforms/android/assets/www/js/geolocation.js \
 /Users/ThoughtWorker/jello/platforms/android/assets/www/js/index.js \
+/Users/ThoughtWorker/jello/platforms/android/assets/www/js/mapping.js \
 /Users/ThoughtWorker/jello/platforms/android/assets/www/plugins/org.apache.cordova.geolocation \
 /Users/ThoughtWorker/jello/platforms/android/assets/www/plugins/org.apache.cordova.geolocation/www \
 /Users/ThoughtWorker/jello/platforms/android/assets/www/plugins/org.apache.cordova.geolocation/www/Coordinates.js \

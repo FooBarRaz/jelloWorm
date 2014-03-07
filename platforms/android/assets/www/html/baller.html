@@ -11,21 +11,30 @@
         <div class="app">
             <h1>Ball Out!</h1>
             <form>
-                <input type="time" placeholder="Enter time" />
-                <input type="date" placeholder="Enter date" />
+                <label>Shot/Drink:</label>
+                <input type="text" name="shot"/>
+                <label>From:</label>
+                <input type="time" name="startTime" /> <br/>
+                <label>Until:</label>
+                <input type="time" name="endTime" />
+                <label>Date</label>
+                <input type="date" name="date" />
+                <label>Comments</label>
                 <input type="text" placeholder="Enter comment" />
             </form>
             
             <div id="geolocation">Geolocation here...</div>
+            <div id="map"></div>
         </div>
         
         
         <script type="text/javascript" src="../js/geolocation.js"></script>
-        
-        <script type="text/javascript">          
-            
+        <script src=../js/mapping.js></script>
+        <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAwmLnUZvKECwZH6knEryTDzDY9Rvz-7Lw&sensor=true"></script>
+        <script type="text/javascript">
+            var geoLocator = new GeoLocation();
+            geoLocator.getLocation();
 
-            
         </script>
     </body>
 </html>

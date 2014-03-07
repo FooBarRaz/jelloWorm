@@ -51,30 +51,20 @@
         <script type="text/javascript" src="js/geolocation.js"></script>
         <script type="text/javascript">
             app.initialize();
-            //geolocation.getLocation();
-//            getLocation();
+//
+//            var g = new GeoLocation();
+//            g.getLocation();
 //            
 //            var timer = setInterval(function() {
 //                var geolocationDiv = document.getElementById("geolocation");
-//                geolocationDiv.innerHTML = ("Latitude: " + getLatitude() + "<br />" +
-//                                        "Longitude: " + getLongitude() + "<br />");
-//            }, 60000);
+//                try {
+//                    geolocationDiv.innerHTML = ("Latitude: " + g.getLatitude() + "<br />" +
+//                                         "Longitude: " + g.getLongitude() + "<br />")
+//                } catch (exception) {
+//                    alert("some shit happened: " + exception.message);
+//                }      
+//            }, 5000);
 //            
-//            
-
-            var g = new GeoLocation();
-            g.getLocation();
-            
-            var timer = setInterval(function() {
-                var geolocationDiv = document.getElementById("geolocation");
-                try {
-                    geolocationDiv.innerHTML = ("Latitude: " + g.getLatitude() + "<br />" +
-                                         "Longitude: " + g.getLongitude() + "<br />")
-                } catch (exception) {
-                    alert("some shit happened: " + exception.message);
-                }      
-            }, 5000);
-            
         </script>
 
     </body>

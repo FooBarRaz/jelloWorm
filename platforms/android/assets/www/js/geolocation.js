@@ -30,14 +30,15 @@ function GeoLocation() {
 GeoLocation.prototype.position = null; 
 
 GeoLocation.prototype.getLocation = function() {
-    alert("getting location!");
     navigator.geolocation.getCurrentPosition(this.onSuccess, this.onError);
 };
 
 GeoLocation.prototype.onSuccess = function(position) {
     _position = position;
-    alert("Latitude = " + _position.coords.latitude + "\n" +
-          "Longitude = " + _position.coords.longitude + "\n");
+    var element = document.getElementById("geolocation");
+    element.innerHTML = "Latitude: " + geoLocator.getLatitude() + "<br />" +
+                        "Longitude: " + geoLocator.getLongitude() + "<br />";
+    initializeMap(position);
 };
 
 GeoLocation.prototype.onError = function (error) {
@@ -52,4 +53,5 @@ GeoLocation.prototype.getLatitude = function() {
 GeoLocation.prototype.getLongitude = function() {
     return _position == null? 0 : _position.coords.longitude;
 };
+
 
