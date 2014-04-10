@@ -1,0 +1,10 @@
+.ui-title {
+    max-width: 40vw;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.btn-img {
+    max-width: 64px;
+    max-height: 64px;
+}

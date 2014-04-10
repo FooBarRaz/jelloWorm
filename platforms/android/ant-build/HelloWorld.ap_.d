@@ -22,6 +22,7 @@
 /Users/ThoughtWorker/jello/platforms/android/assets/www/icon2.png \
 /Users/ThoughtWorker/jello/platforms/android/assets/www/img \
 /Users/ThoughtWorker/jello/platforms/android/assets/www/index.html \
+/Users/ThoughtWorker/jello/platforms/android/assets/www/index3.html \
 /Users/ThoughtWorker/jello/platforms/android/assets/www/js \
 /Users/ThoughtWorker/jello/platforms/android/assets/www/phonegap.js \
 /Users/ThoughtWorker/jello/platforms/android/assets/www/plugins \
@@ -29,6 +30,11 @@
 /Users/ThoughtWorker/jello/platforms/android/assets/www/spec \
 /Users/ThoughtWorker/jello/platforms/android/assets/www/spec.html \
 /Users/ThoughtWorker/jello/platforms/android/assets/www/css/index.css \
+/Users/ThoughtWorker/jello/platforms/android/assets/www/css/jquery.mobile-1.4.2.min.css \
+/Users/ThoughtWorker/jello/platforms/android/assets/www/css/jquery.mobile.icons.min.css \
+/Users/ThoughtWorker/jello/platforms/android/assets/www/css/shotcaller-customs.css \
+/Users/ThoughtWorker/jello/platforms/android/assets/www/css/shotcaller-theme.css \
+/Users/ThoughtWorker/jello/platforms/android/assets/www/css/shotcaller-theme.min.css \
 /Users/ThoughtWorker/jello/platforms/android/assets/www/html/baller.html \
 /Users/ThoughtWorker/jello/platforms/android/assets/www/img/ballerchainshot.fw.png \
 /Users/ThoughtWorker/jello/platforms/android/assets/www/img/logo.png \
@@ -36,7 +42,10 @@
 /Users/ThoughtWorker/jello/platforms/android/assets/www/img/robit.png \
 /Users/ThoughtWorker/jello/platforms/android/assets/www/js/geolocation.js \
 /Users/ThoughtWorker/jello/platforms/android/assets/www/js/index.js \
+/Users/ThoughtWorker/jello/platforms/android/assets/www/js/jquery-1.11.0.min.js \
+/Users/ThoughtWorker/jello/platforms/android/assets/www/js/jquery.mobile-1.4.2.min.js \
 /Users/ThoughtWorker/jello/platforms/android/assets/www/js/mapping.js \
+/Users/ThoughtWorker/jello/platforms/android/assets/www/js/phonegap.js \
 /Users/ThoughtWorker/jello/platforms/android/assets/www/plugins/org.apache.cordova.geolocation \
 /Users/ThoughtWorker/jello/platforms/android/assets/www/plugins/org.apache.cordova.geolocation/www \
 /Users/ThoughtWorker/jello/platforms/android/assets/www/plugins/org.apache.cordova.geolocation/www/Coordinates.js \

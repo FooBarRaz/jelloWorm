@@ -19,53 +19,39 @@
 -->
 <html>
     <head>
-        <meta charset="utf-8" />
-        <meta name="format-detection" content="telephone=no" />
-        <!-- WARNING: for iOS 7, remove the width=device-width and height=device-height attributes. See https://issues.apache.org/jira/browse/CB-4323 -->
-        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
-        <link rel="stylesheet" type="text/css" href="css/index.css" />
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Jello Worm</title>
     </head>
-    <body>
-        <div class="app">
-            <div id="appTitle"><img src="img/logo1.fw.png" /></div>
-            <div class="actionSelection">
-                <a href="html/baller.html"><img src="img/ballerchainshot.fw.png" /></a>
-                <p>Be a Baller</p>
+    <body>    
+        <div data-role="page" data-theme="a" id="main">        
+            <div data-role="header" data-theme="a" class="ui-header"><img class="ui-title" role="heading" src="img/logo1.fw.png"/></div>
+            <div data-role="content" data-theme="a" class="ui-content" role="main">
+                <button class="ui-grid-a" type="button" click="function() { alert('clicked');}">
+                    <div class="ui-block-a">
+                        <img class="btn-img ui-body ui-body-d" src="img/ballerchainshot.fw.png" />
+                    </div>
+                    <div class="ui-block-b">
+                        <div class="ui-body ui-body-d">
+                        <h3>Be a baller</h3>                    
+                        <p>Offer a drink to somebody nearby</p>
+                    </div>
+                </div>
+                </button>
+                <button type="button">
+                    <img class="btn-img" src="img/logo.png" />
+                    <p>Be a Shotcaller</p>
+                    <small>Stake your claim to a drink offer</small>
+                </button>
             </div>
-            <div class="actionSelection">
-                <a href="html/baller.html"><img src="img/logo.png" /></a>
-                <p>Be a shotcaller</p>
-            </div>
-            
-            <div id="deviceready" class="blink">                
-                <p class="event listening">Connecting to Device</p>
-                <p class="event received">Device is Ready</p>
-                <button onclick="alert('button clicked!')">ClickMe</button>
-            </div>
-			
-            <div id="geolocation">Geolocation...</div>        
         </div>
-        <script type="text/javascript" src="phonegap.js"></script>
-        <script type="text/javascript" src="js/index.js"></script>
-        <script type="text/javascript" src="js/geolocation.js"></script>
-        <script type="text/javascript">
-            app.initialize();
-//
-//            var g = new GeoLocation();
-//            g.getLocation();
-//            
-//            var timer = setInterval(function() {
-//                var geolocationDiv = document.getElementById("geolocation");
-//                try {
-//                    geolocationDiv.innerHTML = ("Latitude: " + g.getLatitude() + "<br />" +
-//                                         "Longitude: " + g.getLongitude() + "<br />")
-//                } catch (exception) {
-//                    alert("some shit happened: " + exception.message);
-//                }      
-//            }, 5000);
-//            
-        </script>
-
     </body>
+
+    
+    
+        <script src="js/jquery-1.11.0.min.js"></script>
+        <script src="js/jquery.mobile-1.4.2.min.js"></script>
+<!--        <link rel="stylesheet" href="css/jquery.mobile-1.4.2.min.css" />-->
+    		<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.2/jquery.mobile.structure-1.4.2.min.css" />
+        <link rel="stylesheet" href="css/shotcaller-theme.css" />
+        <link rel="stylesheet" href="css/shotcaller-customs.css" />
 </html>

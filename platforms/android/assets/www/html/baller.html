@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html>
     <head>
         <meta charset="utf-8" />
@@ -6,10 +7,15 @@
         <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
         <link rel="stylesheet" type="text/css" href="../css/index.css" />
         <title>Jello Worm</title>
+        <style type="text/css">
+            html { height: 100% }
+            body { height: 100%; margin: 0; padding: 0 }
+            #map { height: 500px; width: 300px; }
+        </style>
     </head>
     <body>
         <div class="app">
-            <h1>Ball Out!</h1>
+            <h1>What're ya buying? </h1>
             <form>
                 <label>Shot/Drink:</label>
                 <input type="text" name="shot"/>
@@ -27,14 +33,13 @@
             <div id="map"></div>
         </div>
         
-        
+<!--        <script type="text/javascript" src="../js/phonegap.js"></script>-->
         <script type="text/javascript" src="../js/geolocation.js"></script>
         <script src=../js/mapping.js></script>
-        <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAwmLnUZvKECwZH6knEryTDzDY9Rvz-7Lw&sensor=true"></script>
+        <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAwmLnUZvKECwZH6knEryTDzDY9Rvz-7Lw&sensor=false"></script>
         <script type="text/javascript">
             var geoLocator = new GeoLocation();
             geoLocator.getLocation();
-
         </script>
     </body>
 </html>

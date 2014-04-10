@@ -54,4 +54,8 @@ GeoLocation.prototype.getLongitude = function() {
     return _position == null? 0 : _position.coords.longitude;
 };
 
+GeoLocation.prototype.getPosition = function() {
+    return _position;
+};
+
 
